@@ -5,12 +5,13 @@ node_modules/
 *.log
 *.tmp
 *.bak
+*.pdf
 *.session.*
 report/
 coverage/
-src/test.*
 *_bak/
 .idea/
 debug/*
 !.place-holder
 !*.example
+!test/*.pdf

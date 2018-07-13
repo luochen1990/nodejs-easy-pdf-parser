@@ -1,10 +1,24 @@
 Easy PDF Parser
 ===============
 
-a lightweight, promise style, functional wrapper of pdf2json.
+a lightweight, promise style, functional wrapper of [pdf2json](https://github.com/modesty/pdf2json).
 
-Demo
-----
+Command Line Tool
+-----------------
+
+```
+npm install -g easy-pdf-parser
+pdf2text test.pdf > test.txt
+```
+
+Usage Demo
+----------
+
+install:
+
+```
+npm install easy-pdf-parser
+```
 
 extract plain text from pdf easily:
 

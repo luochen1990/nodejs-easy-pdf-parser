@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+
+const path = require('path')
+const fs   = require('fs')
+const lib  = path.join(path.dirname(fs.realpathSync(__filename)), '../src/easy-pdf-parser.js')
+const {parsePdf, extractPlainText} = require(lib)
+
+parsePdf(process.argv[2]).then(extractPlainText).then(data => {
+  console.log(data)
+})

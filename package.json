@@ -1,8 +1,11 @@
 {
   "name": "easy-pdf-parser",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "a lightweight, promise style, functional wrapper of pdf2json, extract text from pdf easily",
   "main": "src/easy-pdf-parser.js",
+  "bin": {
+    "pdf2text": "./bin/pdf2text"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "decaffeinate --use-cs2 --use-optional-chaining --loose --disable-suggestion-comment src/",
