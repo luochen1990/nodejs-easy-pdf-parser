@@ -1,0 +1,33 @@
+{
+  "name": "easy-pdf-parser",
+  "version": "0.0.1",
+  "description": "a lightweight, promise style, functional wrapper of pdf2json, extract text from pdf easily",
+  "main": "src/easy-pdf-parser.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "decaffeinate --use-cs2 --use-optional-chaining --loose --disable-suggestion-comment src/",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luochen1990/nodejs-easy-pdf-parser.git"
+  },
+  "keywords": [
+    "pdf",
+    "text",
+    "pdf2text",
+    "pdf to text",
+    "lightweight",
+    "promise",
+    "functional"
+  ],
+  "author": "luochen1990@gmail.com",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/luochen1990/nodejs-easy-pdf-parser/issues"
+  },
+  "homepage": "https://github.com/luochen1990/nodejs-easy-pdf-parser#readme",
+  "dependencies": {
+    "pdf2json": "^1.1.7"
+  }
+}

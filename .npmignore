@@ -1,0 +1,16 @@
+test/
+*.coffee
+
+node_modules/
+*.log
+*.tmp
+*.bak
+*.session.*
+report/
+coverage/
+src/test.*
+*_bak/
+.idea/
+debug/*
+!.place-holder
+!*.example
