@@ -1,6 +1,6 @@
 {
   "name": "easy-pdf-parser",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "a lightweight, promise style, functional wrapper of pdf2json, extract text from pdf easily",
   "main": "src/easy-pdf-parser.js",
   "bin": {
