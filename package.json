@@ -32,5 +32,8 @@
   "homepage": "https://github.com/luochen1990/nodejs-easy-pdf-parser#readme",
   "dependencies": {
     "pdf2json": "^1.1.7"
+  },
+  "devDependencies": {
+    "decaffeinate": "^6.1.9"
   }
 }

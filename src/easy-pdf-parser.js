@@ -10,7 +10,7 @@ const parsePdf = pdfDesc => {
   }
   return new Promise((resolve, reject) => {
     pdfParser.on("pdfParser_dataError", reject);
-    pdfParser.on("pdfParser_dataReady", resolve);
+    return pdfParser.on("pdfParser_dataReady", resolve);
   });
 };
 
@@ -55,7 +55,7 @@ module.exports = {parsePdf, extractText, extractPlainText};
 
 if (module.parent === null) {
   parsePdf('test.pdf').then(extractPlainText).then(data => {
-    console.log(data);
+    return console.log(data);
   });
 }
 
